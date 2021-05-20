@@ -1,4 +1,4 @@
-## Inhoudelijke keuzes
+## Governance
 
 ### Inhoudelijke Keuzes op hoofdlijnen
 
