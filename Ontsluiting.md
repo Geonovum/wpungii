@@ -1,58 +1,7 @@
-## Ontsluiting
-
-*Dit hoofdstuk uiteraard alleen als een informatiemodel onderwerp is van het rapport*
-
-### Informatiemodel
-
-*Beschrijf het informatiemodel op hoofdlijnen, waarschijnlijk is of komt er een apart informatiemodeldocument, verwijs daar dan naar*
-
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
-Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, 
-ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, 
-aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
-Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. 
-Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. 
-Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. 
-Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. 
-Curabitur ullamcorper ultricies nisi. Nam eget dui.
-
-### Minimum viable product
-
-*Indien van toepassing: beschijf het minimal viable product, wat is er minimaal nodig aan werkend product*
-
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
-Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, 
-ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, 
-aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
-Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. 
-Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. 
-Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. 
-Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. 
-Curabitur ullamcorper ultricies nisi. Nam eget dui.
-
-### Aanbevelingen voor doorontwikkeling
-
-*Beschrijf de aanbevelingen voor doorontwikkeling van het Informatiemodel*
-
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
-Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, 
-ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, 
-aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
-Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. 
-Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. 
-Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. 
-Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. 
-Curabitur ullamcorper ultricies nisi. Nam eget dui.
-
-<aside class='note'>
-    Aanbevelingen in een mooi tabelletje misschien?
-</aside> 
-
-| Kolom-1 | Kolom-2 | Kolom-3 | Kolom 4 | Kolom-n | 
-|---------|---------|---------|---------|---------| 
-| Rij-1   |         |         |         |         |
-| Rij-2   |         |         |         |         |
-| Rij-3   |         |         |         |         |
-| Rij-4   |         |         |         |         |
-| Rij-5   |         |         |         |         |
-| Rij-6   |         |         |         |         |
+## NGII component ontsluiting: hoe gebruikers basisdata willen krijgen
+Binnen de NGII zijn verschillende ontsluitingsmechanismen beschikbaar. De vraag welk mechanisme en welke bijbehorende standaarden het meest geschikt zijn, hangt onder meer af van de mate waarin de aanbiedende partij zicht heeft op de concrete informatiebehoefte van de gebruiker.
+### Zicht op concrete informatiebehoefte: biedt API's
+Wanneer er sprake is van een concrete informatiebehoefte – denk aan ‘mutaties in de BGT voor een op te geven gebied en tijdspanne’ of aan ‘alle pandinformatie die in BAG en BGT bekend is van een op te geven pand’ – dan vormen API’s een voor de hand liggend ontsluitingsmechanisme. API’s kennen een laagdrempelig en voorspelbaar interactiepatroon. Om die laagdrempeligheid ook voor ruimtelijke data te bieden, wordt bij de OGC in hoog tempo een hele familie aan ontsluitingsstandaarden, gebaseerd op REST API’s, ontwikkeld. Deze OGC API familie is te kenschetsen als de opvolger van de verzameling W\*S standaarden, die nog op SOAP services gebaseerd waren. Hiermee sluiten de OGC-standaarden niet alleen beter aan op de nu meest gangbare technieken, maar maken deze nieuwe OGC API standaarden de toegang tot ruimtelijke data ook een stuk laagdrempeliger. Immers, de voorheen zeer geo-specifieke interactiepatronen worden nu vervangen door de generieke interactiepatronen die ook voor niet-ruimtelijke data gangbaar zijn. Bovendien worden deze interactiepatronen ook nog eens op een generieke (in de zin van: niet geo-specifieke) wijze beschreven door deze conform de Open API Specification (OAS) standaard vast te leggen. De beweging richting OGC API’s past hiermee ook uitstekend binnen de SDI.Next gedachte: er worden zo veel mogelijk drempels voor het gebruik van geodata weggenomen. 
+Het laagdrempelig aanbieden van data via API’s is vooral succesvol wanneer deze API’s gericht zijn op specifieke informatiebehoeften. Immers: hoe gerichter de vraag (bijvoorbeeld: geef het volledige adres bij deze postcode + huisnummer), hoe eenvoudiger het interactiepatroon kan zijn, en hoe eenvoudiger de API in gebruik is. Een API die probeert een brede range aan vragen te bedienen, zal altijd complexer in gebruik worden dan wanneer die range aan vragen wordt verspreid over een aantal specifieke API’s. Dit betekent dat API’s erg geschikt zijn voor informatie-uitwisseling in ketens (omdat die ketens bekend zijn) en voor populaire, generieke vragen (zoals het net gegeven adres-voorbeeld). 
+### Geen zicht op concrete informatiebehoefte: biedt mogelijkheid tot combineren met linked open data
+Lang niet altijd zal er sprake zijn van een concrete informatiebehoefte, die bij de data-aanbieder bekend is. Hoe biedt je dan je data zodanig aan, dat onbekende gebruikers met onbekende vragen toch zo veel mogelijk baat kunnen hebben bij je data? Voor die gevallen is de aanpak van linked open data een goede inspiratiebron. De essentie van deze aanpak is dat de onbekende data-gebruiker in staat moet zijn om zelf verbanden te leggen tussen verschillende informatiebronnen. Hiervoor moet niet alleen de data zelf op instantieniveau toegankelijk zijn, maar moeten er van die instanties ook duidelijke relaties gelegd worden naar de semantiek. Op die manier kunnen gebruikers in dat Web of Data zelf data ontdekken en interpreteren. Het linken naar de betekenis van data wordt mogelijk door het gebruik van begrippencatalogi. Een bekend voorbeeld van deze aanpak is het publiceren van de BAG als linked data. 
