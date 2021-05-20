@@ -1,67 +1,20 @@
-## Basis data
+## NGII component basisdata: wat gebruiker van basisdata verwacht
 
-### Overzicht Expertsessies
+### De gebruiker zoekt samenhang
+Vanuit het oogpunt van data als bijproduct van werkprocessen bezien, is het goed te verklaren dat verschillende datasets een verschillend beeld (lijken te) geven van de werkelijkheid. Immers: het werkproces rond bijvoorbeeld huisnummerbesluiten kent andere aandachtspunten dan werkprocessen rond registratie van eigendom of het beheren van objecten in de openbare ruimte. Maar met het beschikbaar stellen van dergelijke data als open data en het groeiend gebruik daarvan voor allerlei nieuwe doelen, liggen de toepassingen lang niet altijd meer in het verlengde van het oorspronkelijke doel waarbij de data is ingewonnen of ontstaan. Gebruikers die dergelijke datasets vinden en vervolgens toepassen, ervaren deze sets vaak als inconsistent. En hoewel gebruikers met de nodige ervaring binnen het geo-domein deze inconsistenties vaak nog kunnen plaatsen, gaat dat voor een toenemend deel van de gebruikers niet meer op. Bovendien blijken inconsistenties regelmatig veroorzaakt te worden door kwaliteitsissues als onvoldoende volledigheid of actualiteit. De kwaliteitsdashboards op diverse basisregistraties maken hier gebruik van, door inconsistenties te signaleren en zo kwaliteitsverbeteringen te triggeren. 
 
-*Beschrijf welke expertsessies er zijn geweest, welke deelnemers er waren, de onderwerpen die aan de orde zijn geweest, highlights, enz ... :* 
+Om echt een doorbraak te creëren in het datagedreven werken, mag het duidelijk zijn dat ontbrekende samenhang tussen databronnen een issue is dat aangepakt moet worden. Hiervoor zijn meerdere strategieën beschikbaar: 
+Primair op data gebaseerde strategieën:
+* Harmoniseren – zorgen dat objecten die niet volledig hetzelfde zijn of betekenen, wel volledig hetzelfde gaan betekenen: vereist integratie / afstemming tussen onderliggende informatiemodellen en inwinningsprocessen en aanpassing van de populatie van de datasets
+* Expliciteren van relaties – zorgen dat objecten die niet volledig hetzelfde zijn of betekenen, zodanig naar elkaar verwijzen dat de onderlinge relatie (geen “is gelijk aan” relatie) expliciet gelegd wordt: vereist expliciteren van relaties tussen objecten in informatiemodellen, het bijhouden van die relaties en het toevoegen van die relaties aan bestaande data.
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
-Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, 
-ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, 
-aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
-Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. 
-Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. 
-Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. 
-Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. 
-Curabitur ullamcorper ultricies nisi. Nam eget dui.
+De vraag welke strategie het meest geschikt is, zal in het algemeen beantwoord kunnen worden door te bepalen of -vanuit de toepassing- het te verantwoorden is dat twee objecten niet exact hetzelfde kunnen zijn, eventueel aangevuld met een analyse van de omvang van de transitieopgave. 
+Primair op ontsluiting gebaseerde strategieën:
+* Het aanbieden van geïntegreerde bevragingen (ontsluitende partij legt verbanden)
+* Het faciliteren van het leggen van verbanden (afnemende partij legt verbanden)
+Deze komen in volgende paragraaf aan bod.
+  
+### Volledigere data: hybride inwinning, publiek-privaat
+Vanuit de oorspronkelijke gedachte dat data ontstaat bij werkprocessen en vervolgens als open data vrijgegeven kan worden voor hergebruik, is het goed verklaarbaar dat data vaak onvolledig is of was. Denk bijvoorbeeld aan de BGT waarin bomen alleen opgenomen worden als ze in beheer zijn bij desbetreffende BGT-bronhouder, of aan straatnamen die alleen in de BAG waren opgenomen, wanneer er ook een adres was uitgegeven aan die straatnaam. Wanneer je die situaties echter beziet vanuit het perspectief van datagedreven werken, dan wordt duidelijk dat deze onvolledigheid tot problemen leidt. Want hoe kun je analyses over binnenstedelijke hittestress uitvoeren, wanneer je minder dan de helft van de bomen in beeld hebt? Of hoe stuur je een ambulance naar een vrijliggend fietspad, wanneer de straatnaam niet bij iedereen bekend is? Om data echt als waardevolle grondstof in te kunnen zetten, is het nodig om beter op deze vragen in te kunnen spelen. Daarvoor is niet één specifieke oplossing voorhanden, maar zal er binnen de NGII 2.0 vaker ingezet worden op afspraken bij bronhouders (zoals het vastleggen van alle straatnamen in de BAG – relatief eenvoudig op te lossen), op hybride inwinning (bomen of verkeersborden zouden ook landelijk ingewonnen kunnen worden, o.a. door algoritmen op basis van beeldmateriaal of puntenwolken, om vervolgens als post-processing stap toegevoegd te kunnen worden aan het stelsel van samenhangende registraties) en/of door het vaker publiek kunnen gebruiken van private data. 
 
-### Uitkomsten Expertsessies
-
-*Geef een overzicht van de uitkomsten van de expertsessies:* 
-
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
-Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, 
-ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, 
-aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
-Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. 
-Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. 
-Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. 
-Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. 
-Curabitur ullamcorper ultricies nisi. Nam eget dui.
-
-<aside class='note'>
-    Uitkomsten in een mooi tabelletje misschien?
-</aside> 
-
-| Kolom-1 | Kolom-2 | Kolom-3 | Kolom 4 | Kolom-n | 
-|---------|---------|---------|---------|---------| 
-| Rij-1   |         |         |         |         |
-| Rij-2   |         |         |         |         |
-| Rij-3   |         |         |         |         |
-| Rij-4   |         |         |         |         |
-| Rij-5   |         |         |         |         |
-| Rij-6   |         |         |         |         |
-
-### Uitgangspunten informatie model
-
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
-Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, 
-ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, 
-aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
-Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. 
-Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. 
-Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. 
-Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. 
-Curabitur ullamcorper ultricies nisi. Nam eget dui.
-
-<aside class='note'>
-    Uitgangspunten in een mooi tabelletje misschien?
-</aside> 
-
-| Kolom-1 | Kolom-2 | Kolom-3 | Kolom 4 | Kolom-n | 
-|---------|---------|---------|---------|---------| 
-| Rij-1   |         |         |         |         |
-| Rij-2   |         |         |         |         |
-| Rij-3   |         |         |         |         |
-| Rij-4   |         |         |         |         |
-| Rij-5   |         |         |         |         |
-| Rij-6   |         |         |         |         |
+Deze omslag vraagt het nodige van de productiekant van de data. Immers: gegevens kunnen vanuit verschillende bronnen ontstaan (bijv. eigen decentrale inwinning vs. centrale post-processing van landelijk ingewonnen elementen), wat kan leiden tot verschil in kwaliteit en in de mate van in control zijn. Dit voelt mogelijk tegennatuurlijk voor bronhouders, maar voor gebruik is dit geen enkele belemmering, op voorwaarde dat de afzonderlijke elementen elk voldoen aan het voor gebruik benodigde kwaliteitsniveau. 
