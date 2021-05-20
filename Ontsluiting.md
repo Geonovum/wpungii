@@ -1,4 +1,4 @@
-## Informatiemodel
+## Ontsluiting
 
 *Dit hoofdstuk uiteraard alleen als een informatiemodel onderwerp is van het rapport*
 
