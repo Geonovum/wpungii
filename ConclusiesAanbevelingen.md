@@ -1,55 +1,12 @@
-## Conclusies en aanbevelingen
+## SDI.Next: Op weg naar de NGII 2.0 (and beyond...)
 
-### Conclusies
+Bij steeds meer maatschappelijke vraagstukken lijkt datagedreven werken een onmisbare rol te gaan spelen. Tal van organisaties experimenteren hiermee, ook steeds vaker onder de noemer digital twin. De beweging die is ingezet, is onmiskenbaar. Maar wat vraagt dat van de NGII? Welk deel van datagedreven werken organiseer je binnen de NGII, en welk deel erbuiten? Welke rol speelt de overheid, en welke rol speelt de markt? Om datagedreven werken in het publieke domein goed te faciliteren, moet de NGII een aantal randvoorwaarden invullen. Om de stap naar de NGII 2.0 te maken, zijn de volgende ontwikkelingen nodig:
+* werken met meerdere CRSen mogelijk maken: gebruikers moeten zonder problemen datasets in RD en in ETRS89 kunnen gebruiken en integreren, en wanneer van toepassing ook profiteren van op het web gangbare CRSen als WGS84 Lat/Long (EPSG:4326) voor vector data of WebMercator (EPSG:3857) voor rasterdata. 
+* meer samenhang in basisdata brengen: gebruikers lopen nu nog vaak tegen inconsistenties aan, die ze niet kunnen duiden. Door meer samenhang in de data te brengen, worden deze inconsistenties ofwel opgelost, ofwel beter begrijpelijk gemaakt (waardoor ze niet langer als inconsistent ervaren worden).
+* werken aan volledigere datasets: met meer hybride inwinprocessen en/of in samenwerking met private partijen, kunnen basisdatasets vollediger worden dan ze nu zijn, waarmee ze voor een breder gebruik geschikt worden.
+* laagdrempeliger ontsluiten met API's: door te werken aan de transitie naar de nieuwe generatie OGC API-standaarden, komen koppelvlakken beschikbaar die makkelijker te begrijpen en eenvoudiger te implementeren zijn.
+* maak data beter te koppelen en te begrijpen: data-aanbieders zullen nooit alle informatiebehoeften kennen en gericht kunnen ondersteunen. Publiceer basisdata daarom zodanig dat het goed koppelbaar wordt: maak het mogelijk om naar basisdata te linken en ontsluit ook de semantiek als linked data. Zo kunnen onbekende gebruikers met onbekende informatiebehoeften zelf hun relaties leggen en zelf de data correct interpreteren.
+* stuur eenduidig op maatschappelijke meerwaarde: de NGII vraagt om centrale en eenduidige sturing op inhoud, organisatie en financiering, waarbij de maatschappelijke meerwaarde leidend is.
+* implementeer de één-loket gedachte: zoals MijnOverheid de integrale ingang is voor burgers tot de digitale overheid, zo kan PDOK de integrale ingang voor data-gebruikers worden. 
 
-*Beschrijf hier de belangrijkste conclusies:* 
-
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
-Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, 
-ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, 
-aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
-Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. 
-Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. 
-Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. 
-Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. 
-Curabitur ullamcorper ultricies nisi. Nam eget dui.
-
-<aside class='note'>
-    Conclusies in een mooi tabelletje misschien?
-</aside> 
-
-| Kolom-1 | Kolom-2 | Kolom-3 | Kolom 4 | Kolom-n | 
-|---------|---------|---------|---------|---------| 
-| Rij-1   |         |         |         |         |
-| Rij-2   |         |         |         |         |
-| Rij-3   |         |         |         |         |
-| Rij-4   |         |         |         |         |
-| Rij-5   |         |         |         |         |
-| Rij-6   |         |         |         |         |
-
-### Aanbevelingen
-
-*Beschrijf hier de belangrijkste aanbevelingen:* 
-
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
-Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, 
-ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, 
-aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
-Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. 
-Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. 
-Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. 
-Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. 
-Curabitur ullamcorper ultricies nisi. Nam eget dui.
-
-<aside class='note'>
-    Aanbevelingen in een mooi tabelletje misschien?
-</aside> 
-
-| Kolom-1 | Kolom-2 | Kolom-3 | Kolom 4 | Kolom-n | 
-|---------|---------|---------|---------|---------| 
-| Rij-1   |         |         |         |         |
-| Rij-2   |         |         |         |         |
-| Rij-3   |         |         |         |         |
-| Rij-4   |         |         |         |         |
-| Rij-5   |         |         |         |         |
-| Rij-6   |         |         |         |         |
+Wanneer de ambities verder reiken, en we niet alleen de NGII 2.0 willen realiseren, maar zelfs een Nationale Digital Twin Infrastructuur voor de fysieke leefomgeving, dan is er nog meer nodig. Want naast alle bovengenoemde commponenten van de NGII 2.0 is het dan ook noodzakelijk om die afsprakenstelsels in te richten, die nodig zijn om tot een federatieve structuur te komen die naast de 'traditionele' NGII-inhoud ook services ontsluit van o.a. dynamische data, rekenmodellen, visualisatie en serious gaming. Die services kunnen door zowel publieke als private partijen worden aangeboden. De NDTI richt zich dan ook niet zozeer op het zelf aanbieden van al die services, maar juist op het veilig en effectief kunen gebruiken van die services.  
