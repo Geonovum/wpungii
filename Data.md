@@ -13,10 +13,11 @@ Harmoniseren is de meest ambitieuze wijze om gegevens bij elkaar te brengen, die
 
 Met de eerste strategie (harmoniseren) zal een gebruiker idealiter geen inconsistenties meer ervaren (in elk geval geen inconsistenties die veroorzaakt worden door semantische verschillen), met de tweede strategie (expliciteren van relaties) zal een gebruiker eventuele inconsistenties eerder kunnen duiden en begrijpen, waarmee idealiter de drempel voor gebruik wordt weggenomen. 
 
+Naast de hierboven op data gebaseerde strategieën, kunnen gebruikers ook in hun behoefte aan samenhang worden voorzien door de ontsluitingswijze hierop te optimaliseren. Later in deze white paper zullen daarom nog twee aanvullende strategieën aan bob komen:
+
 *Primair op ontsluiting gebaseerde strategieën:*
-* Het aanbieden van geïntegreerde bevragingen (ontsluitende partij legt verbanden).
-* Het faciliteren van het leggen van verbanden (afnemende partij legt verbanden).
-Deze vormen komen in volgende paragraaf aan bod.
+* Het aanbieden van geïntegreerde bevragingen (**ontsluitende partij** legt verbanden).
+* Het faciliteren van het leggen van verbanden (**afnemende partij** legt verbanden).
   
   
   
