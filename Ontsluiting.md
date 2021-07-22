@@ -1,4 +1,4 @@
-## NGII component ontsluiting: hoe gebruikers basisdata willen krijgen
+## NGII component Ontsluiting: hoe gebruikers basisdata willen krijgen
 
 ### Ontwikkeling: van losse bouwstenen naar een integraal antwoord op een informatiebehoefte
 Hoewel het nu haast niet meer voor te stellen is, is het niet eens zo heel lang geleden dat basisdata nog op DVD per post werd gedistribueerd. Sindsdien is er veel gebeurd. Eén van de laatste belangrijke veranderingen is dat de granulariteit van ontsluiting veranderd: de aandacht verschuift van het niveau van datasets naar het niveau van individuele objectinstanties. Tegelijk zien we ook de ontwikkeling richting meer samenhang: waar voorheen afzonderlijke datasets werden ontsloten, groeit nu het besef dat gebruikers gebaat zijn bij samengestelde bevragingen. 
