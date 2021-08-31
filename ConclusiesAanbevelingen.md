@@ -7,18 +7,18 @@ Bij steeds meer maatschappelijke vraagstukken lijkt datagedreven werken een onmi
 * **Werk aan domeinoverstijgende samenhang en interoperabiliteit** - de behoefte aan meer samenhang en betere interoperabiliteit stopt niet bij de grenzen van het geodomein. De grote maatschappelijke opgaven zijn domeinoverstijgend, waarmee datagedreven oplossingen voor die opgaven per definitie ook domeinoverstijgend moeten kunnen werken. Dat vraagt o.a. om sterkere samenhang tussen de werelden van geo, bouw en assetmanagement. 
 * **Werken aan volledigere en actuelere datasets** - met meer hybride inwinprocessen en/of in samenwerking met private partijen, kunnen basisdatasets vollediger worden dan ze nu zijn, waarmee ze voor een breder gebruik geschikt worden. Ook kunnen deze aanpakken leiden tot hogere actualiteit.
 
-**Component Cördinaatreferentiesystemen:**
+*Component Cördinaatreferentiesystemen:*
 * **Maak werken met meerdere CRSen mogelijk** - CRS is niet langer alleen relevant bij inwinning van data, maar door de hele keten. Gebruikers moeten zonder problemen datasets kunnen gebruiken in RD, in ETRS89 en in de op het web gangbare CRSen als WGS84 Lat/Long (EPSG:4326) voor vector data en WebMercator (EPSG:3857) voor rasterdata. 
 
-**Component Ontsluiting:**
+*Component Ontsluiting:*
 * **Maak ontsluiting laagdrempeliger met API's en lichtere formaten** - door te werken aan de transitie naar de nieuwe generatie OGC API-standaarden, komen koppelvlakken beschikbaar die makkelijker te begrijpen en eenvoudiger te implementeren zijn.
 * **Maak data beter te koppelen en te begrijpen** - data-aanbieders zullen nooit alle informatiebehoeften kennen en gericht kunnen ondersteunen. Publiceer basisdata daarom zodanig dat het goed koppelbaar wordt: maak het mogelijk om naar basisdata te linken en ontsluit ook de semantiek als linked data. Zo kunnen onbekende gebruikers met onbekende informatiebehoeften zelf hun relaties leggen en zelf de data correct interpreteren.
 
-**Component Governance:**
+*Component Governance:*
 * **Stuur eenduidig op maatschappelijke meerwaarde** - de NGII vraagt om centrale en eenduidige sturing op inhoud, organisatie en financiering, waarbij de maatschappelijke meerwaarde leidend is. Dit betekent dat sturing meer vraaggericht en integraler ingericht moet worden.
 * **Stel duidelijke én praktische regels op voor verantwoord gebruik van locataiedata** - nu locatie steeds vaker een persoonkenmerk wordt en de mogelijkheden van technologie oneindig lijken, wordt het steeds belangrijker dat er duidelijke en praktisch toepasbare regels komen voor het verantwoord gebruik van locatiedata, zowel op ethische als op privacy-gerelateerde aspecten.
 
-**Architectuur:**
+*Architectuur:*
 * **Omarm federatieve structuren en sluit aan bij de standaarden van het web** - de NGII wordt enerzijds nadrukkelijker één van de bronnen in een federatieve structuur en zal anderzijds zelf ook steeds meer als federatieve structuur vorm krijgen. Om deze structuren te ordenen, is aansluiting bij de standaarden van het web noodzakelijk.
 * **Implementeer de één-loket gedachte** - voor zowel menselijke gebruikers als voor zoekmachines. Decentrale structuren betekenen niet het einde van alle centrale voorzieningen; integendeel. Zoals MijnOverheid de integrale ingang is voor burgers tot de digitale overheid, zo is ook een centrale ingang voor geodata-gebruikers noodzakelijk. En vergeet niet, dat de meest universele ingang voor data het zoekveld van Google of eender welke zoekmachine is... 
 * **Besteed structureel aandacht aan cyberveiligheid** - hoe maatschappelijk relevanter de NGII wordt, hoe groter de impact van eventuele verstoringen. Beveiliging van data en systemen vraagt daarom structureel aandacht.
