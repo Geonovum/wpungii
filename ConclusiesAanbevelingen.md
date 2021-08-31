@@ -7,8 +7,8 @@ Bij steeds meer maatschappelijke vraagstukken lijkt datagedreven werken een onmi
 * **Werk aan domeinoverstijgende samenhang en interoperabiliteit** - de behoefte aan meer samenhang en betere interoperabiliteit stopt niet bij de grenzen van het geodomein. De grote maatschappelijke opgaven zijn domeinoverstijgend, waarmee datagedreven oplossingen voor die opgaven per definitie ook domeinoverstijgend moeten kunnen werken. Dat vraagt o.a. om sterkere samenhang tussen de werelden van geo, bouw en assetmanagement. 
 * **Werken aan volledigere en actuelere datasets** - met meer hybride inwinprocessen en/of in samenwerking met private partijen, kunnen basisdatasets vollediger worden dan ze nu zijn, waarmee ze voor een breder gebruik geschikt worden. Ook kunnen deze aanpakken leiden tot hogere actualiteit.
 
-**Component CRS:**
-* **Maak werken met meerdere CRSen mogelijk** - gebruikers moeten zonder problemen datasets kunnen gebruiken in RD, in ETRS89 en in de op het web gangbare CRSen als WGS84 Lat/Long (EPSG:4326) voor vector data en WebMercator (EPSG:3857) voor rasterdata. 
+**Component Cördinaatreferentiesystemen:**
+* **Maak werken met meerdere CRSen mogelijk** - CRS is niet langer alleen relevant bij inwinning van data, maar door de hele keten. Gebruikers moeten zonder problemen datasets kunnen gebruiken in RD, in ETRS89 en in de op het web gangbare CRSen als WGS84 Lat/Long (EPSG:4326) voor vector data en WebMercator (EPSG:3857) voor rasterdata. 
 
 **Component Ontsluiting:**
 * **Maak ontsluiting laagdrempeliger met API's en lichtere formaten** - door te werken aan de transitie naar de nieuwe generatie OGC API-standaarden, komen koppelvlakken beschikbaar die makkelijker te begrijpen en eenvoudiger te implementeren zijn.
