@@ -2,7 +2,7 @@
 
 Bij steeds meer maatschappelijke vraagstukken lijkt datagedreven werken een onmisbare rol te gaan spelen. Tal van organisaties experimenteren hiermee, ook steeds vaker onder de noemer digital twin. De beweging die is ingezet, is onmiskenbaar. Maar wat vraagt dat van de NGII? Welk deel van datagedreven werken organiseer je binnen de NGII, en welk deel erbuiten? Welke rol speelt de overheid, en welke rol speelt de markt? Om datagedreven werken in het publieke domein goed te faciliteren, moet de NGII een aantal randvoorwaarden invullen. Om de stap naar de NGII 2.0 te maken, zijn (geordend per onderwerp) de volgende ontwikkelingen nodig:
 
-**Component Basisdata:**
+*Component Basisdata:*
 * **Breng meer samenhang in basisdata** - gebruikers lopen nu nog vaak tegen inconsistenties aan, die ze niet kunnen duiden. Door meer samenhang in de data te brengen, worden deze inconsistenties ofwel opgelost, ofwel beter begrijpelijk gemaakt (waardoor ze niet langer als inconsistent ervaren worden).
 * **Werk aan domeinoverstijgende samenhang en interoperabiliteit** - de behoefte aan meer samenhang en betere interoperabiliteit stopt niet bij de grenzen van het geodomein. De grote maatschappelijke opgaven zijn domeinoverstijgend, waarmee datagedreven oplossingen voor die opgaven per definitie ook domeinoverstijgend moeten kunnen werken. Dat vraagt o.a. om sterkere samenhang tussen de werelden van geo, bouw en assetmanagement. 
 * **Werken aan volledigere en actuelere datasets** - met meer hybride inwinprocessen en/of in samenwerking met private partijen, kunnen basisdatasets vollediger worden dan ze nu zijn, waarmee ze voor een breder gebruik geschikt worden. Ook kunnen deze aanpakken leiden tot hogere actualiteit.
