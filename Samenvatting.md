@@ -1,6 +1,2 @@
 ## Samenvatting
-
-*Hier de (management)samenvatting van het rapport, onderwerp, belangrijkste conclusies/aanbevelingen*
-
-TODO
-
+"De Nederlandse Geo-informatie Infrastructuur is toe aan een upgrade” schreven we vorig jaar in de [Geonovum meerjarenvisie 2021-2023](https://www.geonovum.nl/meerjarenvisie-2021-2023). In deze white paper werken we dat ene zinnetje verder uit. Hoe kan de NGII een upgrade krijgen richting een vraaggedreven infrastructuur, die de kracht van locatiedata laagdrempelig inzetbaar maakt voor de grote maatschappelijke opgaven? Welke (nieuwe) standaarden spelen daarbij een rol? Hoe hangen allerlei afzonderlijke ontwikkelingen eigenlijk met elkaar samen? En hoe verhoudt de NGII 2.0 zich bijvoorbeeld tot een Nationale Digital Twin Infrastructuur? In deze white paper zoeken we antwoorden op die vragen. En omdat die antwoorden meer waarde hebben, wanneer ze breed gedragen worden in het werkveld, wordt deze white paper ook in publieke consulatie gebracht.
