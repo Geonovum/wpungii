@@ -49,7 +49,7 @@ var respecConfig =
   //specType: "ST",                   // Standaard
   //specType: "IM",                   // Informatie Model
   //specType: "PR",                   // Praktijkrichtlijn
-  specType: "HR",                   // HandReiking
+  //specType: "HR",                   // HandReiking
   //specType: "WA",                   // Werkafspraak
   //specType: "BD",                   // Beheer Documentatie
   //-- format is verplicht! -----------------------------------------------------------
