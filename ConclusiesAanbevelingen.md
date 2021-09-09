@@ -11,7 +11,7 @@ Bij steeds meer maatschappelijke vraagstukken lijkt datagedreven werken een onmi
 * **Maak werken met meerdere CRSen mogelijk** - CRS is niet langer alleen relevant bij inwinning van data, maar door de hele keten. Gebruikers moeten zonder problemen datasets kunnen gebruiken in RD, in ETRS89 en in de op het web gangbare CRSen als WGS84 Lat/Long (EPSG:4326) voor vector data en WebMercator (EPSG:3857) voor rasterdata. 
 
 *Component Ontsluiting*
-* **Maak ontsluiting laagdrempeliger met API's en lichtere formaten** - door te werken aan de transitie naar de nieuwe generatie OGC API-standaarden, komen koppelvlakken beschikbaar die makkelijker te begrijpen en eenvoudiger te implementeren zijn. Biedt *convenience API's* om antwoorden op veelgestelde vragen en gerichte uitwisseling in ketens zo laagdrempelig mogelijk te ontsluiten.
+* **Maak ontsluiting laagdrempeliger met API's en lichtere formaten** - door te werken aan de transitie naar de nieuwe generatie OGC API-standaarden, komen koppelvlakken beschikbaar die makkelijker te begrijpen en eenvoudiger te implementeren zijn. Bied *convenience API's* om antwoorden op veelgestelde vragen en gerichte uitwisseling in ketens zo laagdrempelig mogelijk te ontsluiten.
 * **Maak data beter te koppelen en te begrijpen** - data-aanbieders zullen nooit alle informatiebehoeften kennen en gericht kunnen ondersteunen. Publiceer basisdata daarom zodanig dat het goed koppelbaar wordt: maak het mogelijk om naar basisdata te linken en ontsluit ook de semantiek als linked data. Zo kunnen onbekende gebruikers met onbekende informatiebehoeften zelf hun relaties leggen en zelf de data correct interpreteren. 
 
 *Component Governance*
