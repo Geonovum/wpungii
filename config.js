@@ -56,7 +56,7 @@ var respecConfig =
   format: "markdown",                 // altijd "markdown" - JvG W3C aangepast, op 1 plek markdown aangeven    
   //-- publishDate is verplicht -------------------------------------------------------
   //-- NB: in de werkversie uitzetten, want dan pakt Respec de pushdate ---------------
-  //publishDate: "2019-10-08",  	    // Format is "YYYY-MM-DD"
+  publishDate: "2022-02-04",  	    // Format is "YYYY-MM-DD"
   //-- Repositorynaam op GitHub -------------------------------------------------------
   github: "https://github.com/geonovum/wpungii",
   //-- Repositorynaam/issues op GitHub ------------------------------------------------
@@ -143,10 +143,9 @@ var respecConfig =
   postProcess:[custGHPG],   //-- Optioneel voor een multi document repository
 
   //-- Voor dit blok geldt: alleen als er eerdere versies zijn en altijd beiden aan/uit! 
-  //previousPublishDate: "2018-09-18",  	    // Format is "YYY-MM-DD"
-  //previousMaturity: "GN-CV",                   // kies 1 van deze 2 regels  	  
-  //previousMaturity: "GN-VV",  	                // kies 1 van deze 2 regels
-
+  //previousPublishDate: "2021-09-10",  	     // Format is "YYYY-MM-DD"
+  //previousMaturity: "GN-CV",               // kies 1 van deze 2 regels  	  
+  //previousMaturity: "GN-VV",  	          // kies 1 van deze 2 regels
   //-- Optionele parameters:
   //emailComments: "mim@geonovum.nl",         // reactie mailadres, alleen bij CV!
   //subtitle: "iets",                         // Subtitel van het document
